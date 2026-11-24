@@ -33,5 +33,5 @@ export const config = {
   },
 
   // WhatsApp que recibe las confirmaciones (código de país + número, sin + ni espacios)
-  whatsapp: "573015761294",
+  whatsapp: "573128624528",
 };
