@@ -16,7 +16,8 @@ export default function Invitation() {
   const [params] = useSearchParams();
   const [open, setOpen] = useState(false);
 
-  const personas = Number(params.get("cupos"));
+  const cupos = params.get("cupos");
+  const personas = cupos === null ? 1 : Number(cupos);
   const familia = params.get("familia"); // opcional: /?cupos=3&familia=Restrepo Vélez
   const valido = Number.isInteger(personas) && personas >= 1 && personas <= config.maxPersonas;
 

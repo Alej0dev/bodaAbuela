@@ -43,10 +43,6 @@ export default function Links() {
             </li>
           ))}
         </ul>
-
-        <p className="mt-6 font-sans text-sm text-tinta/70">
-          Opcional: añade &familia=Restrepo Vélez al final del enlace para mostrar el nombre de la familia.
-        </p>
       </div>
     </main>
   );
